@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style3.css" />
+    <script src="calculator.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+  </head>
+  <body>
+    <div class="main-container">
+      <div class="heading-container">
+        <h1>Calculate here!</h1>
+      </div>
+      <div class="input-container">
+        <input type="text" name="input" id="input" />
+      </div>
+      <div class="bg-container">
+        <button class="shaded-button" id="operator" onclick="append('/')">
+          /
+        </button>
+        <button class="mod-shaded-button" id="operator" onclick="append('%')">
+          %
+        </button>
+        <button class="opaque-button" id="operator" onclick="del()">Del</button>
+        <button class="opaque-button" id="operator" onclick="ac()">AC</button>
+        <button class="shaded-button" id="operator" onclick="append('*')">
+          *
+        </button>
+        <button class="translucant-button" id="number" onclick="append('7')">
+          7
+        </button>
+        <button class="translucant-button" id="number" onclick="append('8')">
+          8
+        </button>
+        <button class="translucant-button" id="number" onclick="append('9')">
+          9
+        </button>
+        <button class="shaded-button" id="operator" onclick="append('+')">
+          +
+        </button>
+        <button class="translucant-button" id="number" onclick="append('4')">
+          4
+        </button>
+        <button class="translucant-button" id="number" onclick="append('5')">
+          5
+        </button>
+        <button class="translucant-button" id="number" onclick="append('6')">
+          6
+        </button>
+        <button class="shaded-button" id="operator" onclick="append('-')">
+          -
+        </button>
+        <button class="translucant-button" id="number" onclick="append('1')">
+          1
+        </button>
+        <button class="translucant-button" id="number" onclick="append('2')">
+          2
+        </button>
+        <button class="translucant-button" id="number" onclick="append('3')">
+          3
+        </button>
+        <button class="shaded-button" id="operator" onclick="append('.')">
+          .
+        </button>
+        <button class="translucant-button" id="number" onclick="append('0')">
+          0
+        </button>
+        <button class="opaque-white-button" id="operator" onclick="res()">
+          =
+        </button>
+      </div>
+    </div>
+    <br /><br />
+  </body>
+</html>
